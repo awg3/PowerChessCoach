@@ -1,0 +1,91 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dip"
+    android:background="#FFFF00"
+	>
+	
+	<LinearLayout 
+		android:layout_alignParentBottom="true" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:background="#000000"
+		android:baselineAligned="false"
+		>
+		
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/navHome" 
+	        android:background="#ccffff" 
+	        android:layout_weight="1" 
+	        >
+		    <TextView 
+			    android:layout_height="fill_parent" 
+			    android:layout_width="fill_parent" 
+			    android:gravity="center"
+			    android:text="@string/Home" 
+			   	android:id="@+id/navHomeText" 
+			    
+			    />
+	    </LinearLayout>
+	    
+	    
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/navContents" 
+	        android:background="#ccffff" 
+	        android:layout_weight="1" 
+	        android:layout_marginLeft="2dp"
+	        >
+		    <TextView 
+			    android:layout_height="fill_parent" 
+			    android:layout_width="fill_parent"
+			    android:gravity="center" 
+			    android:text="@string/Contents" 
+			    android:id="@+id/navContentsText"
+			    />
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/navAuthors"
+	        android:background="#ccffff" 
+	        android:layout_weight="1" 
+	        android:layout_marginLeft="2dp"
+	        >
+		    <TextView 
+			    android:layout_height="fill_parent" 
+			    android:layout_width="fill_parent" 
+			    android:gravity="center"
+			    android:text="@string/Authors"
+			    android:id="@+id/navAuthorsText"
+			    />
+		</LinearLayout>
+		
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/navAbout" 
+	        android:background="#ccffff" 
+	        android:layout_weight="1" 
+	        android:layout_marginLeft="2dp"
+	        >
+		    <TextView 
+			    android:layout_height="fill_parent"
+			    android:layout_width="fill_parent" 
+			    android:gravity="center"
+			    android:text="@string/About" 
+			    android:id="@+id/navAboutText"
+			    />
+	    </LinearLayout>
+		    
+		
+	
+	
+	</LinearLayout>
+</RelativeLayout>

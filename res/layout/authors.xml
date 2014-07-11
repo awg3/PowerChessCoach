@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"    
+    android:background="#080819"
+    
+  	>
+
+    <include 
+        layout = "@layout/bottom_bar" 
+        android:id="@+id/AuthorsPageInclude" />
+    
+    <TextView 
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:layout_below="@+id/AuthorsPageInclude"
+        android:textSize="40sp"
+        android:id="@+id/AuthorsTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:text="@string/Authors"
+        
+        />
+    
+    
+    <TextView 
+        android:layout_below="@+id/AuthorsTitle"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:text="@string/AuthorsText"
+        
+        />
+    
+    <!-- 
+	<ScrollView 
+	    android:layout_marginTop="5dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:fillViewport="true"
+	    android:id="@+id/scrollview"
+	    android:layout_below="@+id/AuthorsPageInclude"
+	    android:fadeScrollbars="false"
+	    >
+	    
+	    
+	    
+	    <LinearLayout
+	        
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" 
+		    android:id="@+id/AuthorsView"
+		    
+		    
+	    >
+	    
+	
+		</LinearLayout>
+	
+	</ScrollView>
+	
+	-->
+	
+	
+
+</RelativeLayout>
+

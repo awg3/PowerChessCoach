@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:padding="5dp"
+    android:id="@+id/dialogView"
+    style="@style/MyDialog" >
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        
+        />
+ 	<LinearLayout
+ 	    android:orientation="horizontal"
+ 	    android:id="@+id/line"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="1dp"
+ 	    android:background="#c0c0c0"
+ 	    android:layout_marginTop="5dp"
+ 	    android:layout_marginBottom="5dp"
+ 	    android:layout_below="@+id/title"
+ 	    />
+ 
+ 	
+    <RelativeLayout
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/alertPieceArea"
+		android:layout_below="@+id/line"
+		>
+	</RelativeLayout> 
+</RelativeLayout>
